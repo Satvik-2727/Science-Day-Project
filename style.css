@@ -1,0 +1,128 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+:root {
+    --color-1: white;
+    --color-2: #FFDE01;
+    --bg-color: black;
+    --font-1: 'JetBrains Mono', monospace, sans-serif;
+    --font-2: 'Julius Sans One', sans-serif;
+    --font-3: 'Kaushan Script', monospace
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-color: var(--bg-color);
+    overflow-x: hidden;
+    height:1000px;
+}
+
+header{
+    background-image: url("solar-system-removebg-preview.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 95vh;
+    position: relative;
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+.sun-icon {
+    height: clamp(29px, 5vw, 90px);
+}
+.navbar {
+    position: relative;
+    z-index: 2;
+    top: 2vw;
+    /* background-color: orange; */
+    font-family: var(--font-1);
+    width: 100vw;
+    font-size: clamp(10px, 1.4vw, 1vw);
+    margin: auto;
+}
+
+.navbar>ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 56px;
+}
+
+.navbar>ul>li {
+    list-style-type: none;
+    margin: 3vw;
+    letter-spacing: clamp(1px, 1.5vw, 13px);
+}
+
+.navbar ul li:hover{
+    color: var(--color-2);
+    font-size: clamp(10px, 1.4vw, 35px);
+    font-weight: 900;
+}
+
+.heading{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    top: 35vh;
+    left: 6vw;
+}
+
+.heading span{
+    color: var(--color-2);
+    text-shadow: 7px 4px var(--bg-color);
+}
+
+.heading span:hover{
+    color: var(--color-1);
+}
+
+.heading>:nth-child(1){
+    font-family: var(--font-2);
+    letter-spacing: 2.2vw;
+    width: fit-content;
+    font-size: clamp(30px,9vw,300px);
+}
+
+.heading>:nth-child(2){
+    align-self: center;
+    font-size: clamp(20px,3vw,100px);
+    font-family: var(--font-3);
+}
+
+.heading>:nth-child(2):hover{
+    font-size: 5vw;
+}
+
+.scroll-btn{
+    width: fit-content;
+    background-color: var(--color-2);
+    height: fit-content;
+    padding: 1vw;
+    border-radius: 90px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.scroll-btn>img{
+    height: 8vh;
+}
