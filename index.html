@@ -18,18 +18,24 @@
 </head>
 
 <body>
-	<header>
+	<header id="header">
 		<nav class="navbar">
 			<ul>
 				<img src="assets/2D Assets/Icons/sun-icon.png" alt="" class="sun-icon">
 				<!-- <li><img src="Assets/2D Assets/Icons/sun-icon.png" alt="" class="sun-icon"></li> -->
-				<a href="#home"><li>HOME</li></a>
-				<a href="#about"><li>ABOUT ME</li></a>
-				<a href=""><li>PLANETS</li>	</a>
+				<a href="#header">
+					<li>HOME</li>
+				</a>
+				<a href="#about">
+					<li>ABOUT ME</li>
+				</a>
+				<a href="#planets">
+					<li>PLANETS</li>
+				</a>
 			</ul>
 		</nav>
 
-		<div class="box"></div>
+		<div class="box" id="box"></div>
 
 		<div class="heading" id="home">
 			<span>SOLAR SYSTEM</span>
@@ -45,7 +51,61 @@
 
 			<div class="about-contentbox">
 				<span>ABOUT ME</span>
-				<span>Myself Satvik. I'm studying in class 7 in Little Angels School. This website which I created is to give information about the solar system and the planets</span>
+				<span>Myself Satvik. I'm studying in class 7 in Little Angels School. This website which I created is to
+					give information about the solar system and the planets</span>
+			</div>
+		</div>
+
+		<div class="planets" id="planets">
+			<span>PLANETS</span>
+			<div class="planets-grid">
+				<div class="planet-box">
+					<!-- <a href="mercury.html"><img src="assets/2D Assets/planets/mercury.png" alt=""></a>
+					<a href="mercury.html"><span>Mercury</span></a> -->
+					<img src="assets/2D Assets/planets/mercury.png" alt="">
+					<a href="mercury.html"><span>Mercury</span></a>
+				</div>
+				
+				<div class="planet-box">
+					<img src="assets/2D Assets/planets/venus.png" alt="">
+					<a href="venus.html"><span>Venus</span></a>
+				</div>
+				
+				<div class="planet-box">
+					<img src="assets/2D Assets/planets/earth.png" alt="">
+					<a href="earth.html"><span>Earth</span></a>
+				</div>
+
+				<div class="planet-box">
+					<img src="assets/2D Assets/planets/mars.png" alt="">
+					<a href="mars.html"><span>Mars</span></a>
+				</div>
+
+				<div class="planet-box">
+					<img src="assets/2D Assets/planets/jupiter.png" alt="">
+					<a href="jupiter.html"><span>Jupiter</span></a>
+				</div>
+
+				<div class="planet-box">
+					<img src="assets/2D Assets/planets/saturn.png" alt="">
+					<a href="saturn.html"><span>Saturn</span></a>
+				</div>
+
+				<div class="planet-box">
+					<img src="assets/2D Assets/planets/uranus.png" alt="">
+					<a href="uranus.html"><span>Uranus</span></a>
+				</div>
+
+				<div class="planet-box">
+					<img src="assets/2D Assets/planets/neptune.png" alt="">
+					<a href="neptune.html"><span>Neptune</span></a>
+				</div>
+
+				<div class="planet-box">
+					<img src="assets/2D Assets/planets/pluto.png" alt="">
+					<a href="pluto.html"><span>Pluto</span></a>
+				</div>
+				
 			</div>
 		</div>
 	</main>
