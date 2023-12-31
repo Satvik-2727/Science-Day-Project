@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+:root {
+    --color-1: white;
+    --color-2: #E7B14D;
+    --bg-color: black;
+    --bg-color-2:#1C1818;
+    --font-1: 'JetBrains Mono', monospace, sans-serif;
+    --font-2: 'Julius Sans One', sans-serif;
+    --font-3: 'Kaushan Script', monospace
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-color);
+    overflow-x: hidden;
+    height:2000px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-image: url("assets/2D Assets/planets/venus.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: clamp(480px,97vw,700px);
+    position: relative;
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: var(--bg-color);
+}
+
+/* N    A   V   B   A   R */
+.sun-icon {
+    height: clamp(29px, 5vw, 90px);
+}
+.navbar {
+    position: fixed;
+    z-index: 2;
+    top: 2vw;
+    /* background-color: orange; */
+    font-family: var(--font-1);
+    width: 100vw;
+    font-size: clamp(8px, 1.4vw, 1vw);
+    margin: auto;
+}
+
+.navbar>ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 56px;
+}
+
+.navbar>ul>a>li{
+    list-style-type: none;
+    margin: 3vw;
+    letter-spacing: clamp(1px, 0.8vw, 13px);
+}
+
+.navbar ul li:hover{
+    color: var(--color-2);
+    font-size: clamp(10px, 1.4vw, 35px);
+    font-weight: 900;
+}
+
+/* H    E    A    D    I    N    G */
+
+.heading{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    top: 35vh;
+    left: 6vw;
+}
+
+.heading span{
+    color: var(--color-2);
+    text-shadow: 7px 4px var(--bg-color);
+}
+
+.heading span:hover{
+    color: var(--color-1);
+}
+
+.heading>:nth-child(1){
+    position: relative;
+    left: 6vw;
+    font-family: var(--font-2);
+    letter-spacing: 12vw;
+    width: fit-content;
+    font-size: clamp(30px,9vw,300px);
+}
+
+.heading>:nth-child(2){
+    position: relative;
+    align-self: center;
+    /* margin-left: 34vw; */
+    font-size: clamp(20px,3vw,100px);
+    font-family: var(--font-3);
+}
+
+.heading>:nth-child(2):hover{
+    font-size: 5vw;
+}
+
+
+
+
+/* A    T   M   O   S   P   H   E   R   E */
+
+
+.atmosphere{
+    padding-top: 355px;
+    margin-top: 100px;
+    display: flex;
+}
+
+.atmosphere-text{
+    display: flex;
+    flex-direction: column;
+    width: 55vw;
+}
+
+.atmosphere-text>span:nth-child(2):hover{
+    color: var(--color-2);
+}
+
+.atmosphere-text>span:nth-child(1){
+    font-family: var(--font-1);
+    color: var(--color-2);
+    font-size: clamp(15px,3vw,100px);
+    letter-spacing: clamp(3px,4vw,80px);
+    font-weight: 900;
+    /* margin: auto; */
+}
+
+
+.atmosphere-text>span:nth-child(2){
+    padding-top: 30px;
+    font-family: var(--font-1);
+    font-size: clamp(10px,1.3vw,100px);
+}
+
+
+.atmosphere-image>img:nth-child(1){
+    position: absolute;
+    right: -10vw;
+    height: 52vw;
+}
+
+.atmosphere-image>img:nth-child(2){
+    position: absolute;
+    right: -10vw;
+    height: 50vw;
+}
+
+
+/* G    E   O   L   O   G   Y */
+
+.geology{
+    flex-direction: row-reverse;
+}
+
+.geology-image>img:nth-child(1){
+    position: absolute;
+    left: -10vw;
+    height: 52vw;
+}
+
+.geology-image>img:nth-child(2){
+    position: absolute;
+    left: -10vw;
+    height: 50vw;
+}
+
+/* C    O   M   P   O   S   I   T   I   O   N */
+
+.composition-text>span:nth-child(1){
+    letter-spacing: clamp(3px,3.8vw,80px);
+    font-size: clamp(10px,3vw,100px);   
+}
