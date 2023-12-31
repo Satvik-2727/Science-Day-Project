@@ -141,6 +141,10 @@ header{
     width: 55vw;
 }
 
+.atmosphere-text>span:nth-child(2):hover{
+    color: var(--color-2);
+}
+
 .atmosphere-text>span:nth-child(1){
     font-family: var(--font-1);
     color: var(--color-2);
