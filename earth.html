@@ -5,96 +5,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Earth</title>
     <link rel="stylesheet" href="earth.css">
+    <link rel="stylesheet" href="dropdown.css">
     <link rel="shortcut icon" href="assets/2D Assets/Icons/earth-icon.png" type="image/x-icon">
 </head>
 <body>
     <header id="header">
 		<nav class="navbar">
-			<ul>
-				<a href="index.html"><img src="assets/2D Assets/Icons/earth-icon.png" alt="" class="sun-icon"></a>
-				<!-- <li><img src="Assets/2D Assets/Icons/sun-icon.png" alt="" class="sun-icon"></li> -->
-				<a href="#header">
-					<li>HOME</li>
-				</a>
+            <div class="image">
+                <li id="image-listitem">
+                    <a href="#">
+                        <img id="icon" src="assets/2D Assets/Icons/earth-icon.png" alt="" class="sun-icon">
+                    </a>
+                </li>
+                <ul class="subitem">
+                    <li class="subitem-item-block">
+                        <a href="#" class="subitem-item">Solar System</a>
+                    </li>
+                    <div class="subitem subitem-item-item">
+                        <li class="subitem-item-block subitem-item-item-content"><a href="index.html" class="subitem-item">Home</a></li>
+                        <li class="subitem-item-block subitem-item-item-content"><a href="about.html" class="subitem-item">About</a></li>
+                        <li class="subitem-item-block subitem-item-item-content"><a href="planets.html" class="subitem-item">Planets</a></li>
+                    </div>
+                    <li class="subitem-item-block">
+                        <a href="#" class="subitem-item">Planets</a>
+                    </li>
+                    <div class="subitem subitem-item-item">
 
-				<a href="#atmosphere">
-					<li>ATMOSPHERE</li>
-				</a>
+                        <li class="subitem-item-block">
+                            <a href="#" class="subitem-item">Mercury</a>
+                        </li>
+                        <div class="subitem subitem-item-item">
+                            <li class="subitem-item-block"><a href="mercury.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="mercury-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="mercury-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="mercury-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+    
+                        <li class="subitem-item-block">
+                            <a href="#" class="subitem-item">Venus</a>
+                        </li>
+                        <div class="subitem subitem-item-item">
+                            <li class="subitem-item-block"><a href="venus.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="venus-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="venus-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="venus-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
 
-				<a href="#geology">
-					<li>GEOLOGY</li>
-				</a>
+                        <li class="subitem-item-block">
+                            <a href="#" class="subitem-item">Earth</a>
+                        </li>
+                        <div class="subitem subitem-item-item">
+                            <li class="subitem-item-block"><a href="earth.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="earth-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="earth-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="earth-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
 
-				<a href="#composition">
-					<li>COMPOSITION</li>
-				</a>
-			</ul>
-		</nav>
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Mars</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-2">
+                            <li class="subitem-item-block"><a href="mars.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="mars-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="mars-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="mars-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+                        
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Jupiter</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-2">
+                            <li class="subitem-item-block"><a href="jupiter.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="jupiter-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="jupiter-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="jupiter-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Saturn</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-2">
+                            <li class="subitem-item-block"><a href="saturn.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="saturn-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="saturn-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="saturn-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+                        
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Uranus</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-3">
+                            <li class="subitem-item-block"><a href="uranus.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="uranus-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="uranus-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="uranus-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Neptune</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-3">
+                            <li class="subitem-item-block"><a href="neptune.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="neptune-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="neptune-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="neptune-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Pluto</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-3">
+                            <li class="subitem-item-block"><a href="pluto.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="pluto-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="pluto-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="pluto-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <a href="earth.html">
+                <li class="navbar-item">HOME</li>
+            </a>
+            
+            <a href="earth-atmosphere.html">
+                <li class="navbar-item">ATMOSPHERE</li>
+            </a>
+            
+            <a href="earth-geology.html">
+                <li class="navbar-item">GEOLOGY</li>
+            </a>
+            
+            <a href="earth-composition.html">
+                <li class="navbar-item">COMPOSITION</li>
+            </a>
+        </nav>
 
 		<div class="box" id="box"></div>
-
+        <marquee>This website is made by Satvik</marquee>
 		<div class="heading" id="home">
 			<span>EARTH</span>
 			<span>A miracle above science</span>
 		</div>
 	</header>
-
-    <main>
-        <div class="atmosphere" id="atmosphere">
-            <div class="atmosphere-image">
-                <img src="assets/2D Assets/Ellipse.png" alt="">
-                <img src="assets/2D Assets/planets/earth.png" alt="">
-            </div>
-            <div class="atmosphere-text">
-                <span>ATMOSPHERE</span>
-                <span>
-                    The <span>Earth's atmosphere</span> is a dynamic blanket of gases crucial for life. Comprising <span>nitrogen</span>,<span>oxygen</span>, and <span>trace gases</span> like <span>carbon dioxide</span>, it <span>shields</span> us from harmful <span>solar radiation</span> while <span>regulating temperature</span>. Divided into layers— <span>troposphere</span>, <span>stratosphere</span>, <span>mesosphere</span>, <span>thermosphere</span>, and <span>exosphere</span>—it facilitates <span>weather patterns</span>, sustains <span>life</span>, and enables vital processes like <span>photosynthesis</span>. Human activities impact its composition, leading to concerns like climate change and pollution, emphasizing the need for <span>sustainable practices</span> to preserve this delicate <span>balance.</span></span>
-                    <div class="fact-box">
-                        <div class="top">
-                            <img src="assets/2D Assets/Icons/earth-icon.png" alt="">
-                            <span>FACT FILE</span>
-                        </div>
-                        <span>The weight of the air above us creates atmospheric pressure. At sea level, the average atmospheric pressure is about 14.7 pounds per square inch (psi) or 101.3 kilopascals (kPa)</span>
-                    </div>
-            </div>
-        </div>
-
-        <div class="geology atmosphere" id="geology">
-            <div class="geology-image atmosphere-image">
-                <img src="assets/2D Assets/Ellipse.png" alt="">
-                <img src="assets/2D Assets/planets/earth.png" alt="">
-            </div>
-            <div class="geology-text atmosphere-text">
-                <span>GEOLOGY</span>
-                <span><span>Earth's geology</span> spans <span>four main layers</span>: the <span>solid inner core</span>, <span>molten outer core</span>, <span>mantle</span>, and <span>crust</span>. <span>Tectonic plates atop</span> the <span>semi-fluid mantle</span> cause geological activity, <span>forming mountains, valleys, and earthquakes</span> at plate boundaries. <span>Rock types</span>-<span>igneous, sedimentary, and metamorphic</span>—reflect Earth's dynamic history through processes like volcanic eruptions, erosion, and pressure-induced changes. <span>Fossil records</span> within rock layers unveil <span>evolutionary history</span>, while minerals, such as <span>quartz and feldspar</span>, signify <span>Earth's composition</span>. <span>Geological time</span>, measured in <span>eons, eras, and periods</span>, illustrates the planet's <span>ancient transformations</span> and ongoing changes shaping its surface.</span>
-                <div class="fact-box">
-                    <div class="top">
-                        <img src="assets/2D Assets/Icons/earth-icon.png" alt="">
-                        <span>FACT FILE</span>
-                    </div>
-                    <span>Earth's surface is constantly changing due to plate tectonics, where the Earth's lithosphere (the outer layer of the Earth) is divided into several large and small plates that move and interact, causing earthquakes, volcanic eruptions, and the formation of mountains.</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="composition atmosphere" id="composition">
-            <div class="composition-image atmosphere-image">
-                <img src="assets/2D Assets/Ellipse.png" alt="">
-                <img src="assets/2D Assets/planets/earth.png" alt="">
-            </div>
-            <div class="composition-text atmosphere-text">
-                <span>COMPOSITION</span>
-                <span>
-                    Earth consists of <span>distinct layers</span>: the <span>solid inner core</span>, composed mainly of <span>iron and nickel</span>; the <span>liquid outer core</span>, also rich in <span>iron and nickel</span>; the <span>semi-fluid mantle</span>, containing <span>silicate rocks and minerals</span>; and the outermost layer, the <span>crust</span>, made up of <span>lighter rocks</span> like <span>granite (continental crust)</span> and <span>basalt (oceanic crust)</span>. Elements like <span>oxygen, silicon, aluminum, iron, calcium, sodium, and potassium</span> constitute the <span>majority</span>, while <span>trace elements</span> contribute to Earth's diverse composition, fostering life and <span>geological processes</span> across its surface.</span>
-                <div class="fact-box">
-                        <div class="top">
-                            <img src="assets/2D Assets/Icons/earth-icon.png" alt="">
-                            <span>FACT FILE</span>
-                        </div>
-                        <span>The composition and movement of the iron-nickel core generate Earth's magnetic field. This magnetic field helps protect the planet from the solar wind and cosmic radiation.</span>
-                </div>
-            </div>
-        </div>
-    </main>
 </body>
 </html>

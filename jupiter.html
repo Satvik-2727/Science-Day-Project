@@ -6,120 +6,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jupiter</title>
     <link rel="stylesheet" href="jupiter.css">
+    <link rel="stylesheet" href="dropdown.css">
     <link rel="shortcut icon" href="assets/2D Assets/Icons/jupiter-icon.png" type="image/x-icon">
 </head>
 
 <body>
     <header id="header">
         <nav class="navbar">
-            <ul>
-                <a href="index.html"><img src="assets/2D Assets/Icons/jupiter-icon.png" alt="" class="sun-icon"></a>
-                <!-- <li><img src="Assets/2D Assets/Icons/sun-icon.png" alt="" class="sun-icon"></li> -->
-                <a href="#header">
-                    <li>HOME</li>
-                </a>
+            <div class="image">
+                <li id="image-listitem">
+                    <a href="#">
+                        <img id="icon" src="assets/2D Assets/Icons/jupiter-icon.png" alt="" class="sun-icon">
+                    </a>
+                </li>
+                <ul class="subitem">
+                    <li class="subitem-item-block">
+                        <a href="#" class="subitem-item">Solar System</a>
+                    </li>
+                    <div class="subitem subitem-item-item">
+                        <li class="subitem-item-block subitem-item-item-content"><a href="index.html" class="subitem-item">Home</a></li>
+                        <li class="subitem-item-block subitem-item-item-content"><a href="about.html" class="subitem-item">About</a></li>
+                        <li class="subitem-item-block subitem-item-item-content"><a href="planets.html" class="subitem-item">Planets</a></li>
+                    </div>
+                    <li class="subitem-item-block">
+                        <a href="#" class="subitem-item">Planets</a>
+                    </li>
+                    <div class="subitem subitem-item-item">
 
-                <a href="#atmosphere">
-                    <li>ATMOSPHERE</li>
-                </a>
+                        <li class="subitem-item-block">
+                            <a href="#" class="subitem-item">Mercury</a>
+                        </li>
+                        <div class="subitem subitem-item-item">
+                            <li class="subitem-item-block"><a href="mercury.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="mercury-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="mercury-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="mercury-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+    
+                        <li class="subitem-item-block">
+                            <a href="#" class="subitem-item">Venus</a>
+                        </li>
+                        <div class="subitem subitem-item-item">
+                            <li class="subitem-item-block"><a href="venus.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="venus-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="venus-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="venus-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
 
-                <a href="#geology">
-                    <li>GEOLOGY</li>
-                </a>
+                        <li class="subitem-item-block">
+                            <a href="#" class="subitem-item">Earth</a>
+                        </li>
+                        <div class="subitem subitem-item-item">
+                            <li class="subitem-item-block"><a href="earth.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="earth-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="earth-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="earth-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
 
-                <a href="#composition">
-                    <li>COMPOSITION</li>
-                </a>
-            </ul>
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Mars</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-2">
+                            <li class="subitem-item-block"><a href="mars.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="mars-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="mars-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="mars-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+                        
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Jupiter</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-2">
+                            <li class="subitem-item-block"><a href="jupiter.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="jupiter-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="jupiter-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="jupiter-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Saturn</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-2">
+                            <li class="subitem-item-block"><a href="saturn.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="saturn-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="saturn-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="saturn-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+                        
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Uranus</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-3">
+                            <li class="subitem-item-block"><a href="uranus.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="uranus-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="uranus-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="uranus-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Neptune</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-3">
+                            <li class="subitem-item-block"><a href="neptune.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="neptune-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="neptune-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="neptune-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Pluto</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-3">
+                            <li class="subitem-item-block"><a href="pluto.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="pluto-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="pluto-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="pluto-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <a href="jupiter.html">
+                <li class="navbar-item">HOME</li>
+            </a>
+            
+            <a href="jupiter-atmosphere.html">
+                <li class="navbar-item">ATMOSPHERE</li>
+            </a>
+            
+            <a href="jupiter-geology.html">
+                <li class="navbar-item">GEOLOGY</li>
+            </a>
+            
+            <a href="jupiter-composition.html">
+                <li class="navbar-item">COMPOSITION</li>
+            </a>
         </nav>
 
         <div class="box" id="box"></div>
-
+        <marquee>This website is made by Satvik</marquee>
         <div class="heading" id="home">
             <span>JUPITER</span>
             <span>the big brother</span>
         </div>
     </header>
-
-    <main>
-        <div class="atmosphere" id="atmosphere">
-            <div class="atmosphere-image">
-                <img src="assets/2D Assets/Ellipse.png" alt="">
-                <img src="assets/2D Assets/planets/jupiter.png" alt="">
-            </div>
-            <div class="atmosphere-text">
-                <span>ATMOSPHERE</span>
-                <span>
-                    <span>Jupiter's atmosphere</span> comprises mainly <span>hydrogen and helium</span>, hosting
-                    dramatic cloud bands, including <span>dark belts</span> and <span>bright zones</span>.
-                    <span>Powerful winds</span> generate <span>colossal storms</span> like the iconic <span>Great Red
-                        Spot</span>. Lightning and thunder are frequent due to convective processes, while <span>upper
-                        layers </span>display vivid, <span>swirling cloud formations</span>. Jupiter's turbulent
-                    atmosphere, characterized by vibrant patterns and extreme weather phenomena, stands as a mesmerizing
-                    spectacle in our solar system.</span>
-                <div class="fact-box">
-                    <div class="top">
-                        <img src="assets/2D Assets/Icons/jupiter-icon.png" alt="">
-                        <span>FACT FILE</span>
-                    </div>
-                    <span>Lightning occurs on Jupiter, producing bright flashes that have been observed in its clouds. The planet also exhibits auroras near its poles, caused by charged particles interacting with its magnetic field.</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="geology atmosphere" id="geology">
-            <div class="geology-image atmosphere-image">
-                <img src="assets/2D Assets/Ellipse.png" alt="">
-                <img src="assets/2D Assets/planets/jupiter.png" alt="">
-            </div>
-            <div class="geology-text atmosphere-text">
-                <span>GEOLOGY</span>
-                <span>
-                    Jupiter, a <span>gas giant</span>, <span>lacks a solid surface</span> like terrestrial planets. Its
-                    structure encompasses a <span>dense core surrounded</span> by <span>metallic hydrogen</span> and
-                    <span>liquid hydrogen-helium</span> layers. While lacking conventional geological features, it
-                    exhibits diverse <span>magnetic fields</span>, <span>auroras</span>, and a <span>dynamic
-                        magnetosphere</span>. Observable features, such as atmospheric bands, storms, and cloud
-                    formations, define Jupiter's geophysical characteristics, showcasing its dynamic and <span>intricate
-                        atmospheric processes</span> rather than traditional geological formations found on rocky
-                    planets.</span>
-
-                <div class="fact-box">
-                    <div class="top">
-                        <img src="assets/2D Assets/Icons/jupiter-icon.png" alt="">
-                        <span>FACT FILE</span>
-                    </div>
-                    <span>Jupiter boasts an extremely powerful magnetic field, the strongest in the solar system, generated by the metallic hydrogen layer surrounding its core. This magnetic field extends far beyond the planet and interacts with its moons and surrounding space.</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="composition atmosphere" id="composition">
-            <div class="composition-image atmosphere-image">
-                <img src="assets/2D Assets/Ellipse.png" alt="">
-                <img src="assets/2D Assets/planets/jupiter.png" alt="">
-            </div>
-            <div class="composition-text atmosphere-text">
-                <span>COMPOSITION</span>
-                <span>
-                    <span>Jupiter's composition</span> primarily consists of <span>hydrogen (about 75%)</span> and
-                    <span>helium (approximately 24%)</span>. The remaining 1% encompasses <span>trace elements</span>
-                    like <span>methane, ammonia, water vapor</span>, and other compounds. Its <span>core</span> likely
-                    comprises heavier elements, surrounded by <span>layers of metallic hydrogen</span> transitioning
-                    into liquid hydrogen. This gas giant's <span>chemical makeup</span>, dominated by <span>hydrogen and
-                        helium</span> with traces of compounds, distinguishes it as a <span>gas-rich celestial
-                        body</span>, differentiating it significantly from terrestrial planets in our solar
-                    system.</span>
-                <div class="fact-box">
-                    <div class="top">
-                        <img src="assets/2D Assets/Icons/jupiter-icon.png" alt="">
-                        <span>FACT FILE</span>
-                    </div>
-                    <span>Jupiter's composition closely resembles that of a failed star. In fact, it's sometimes referred to as a "failed star" because if it had accumulated more mass during its formation, it might have become a star rather than a gas giant planet.</span>
-                </div>
-            </div>
-        </div>
-    </main>
 </body>
 
 </html>

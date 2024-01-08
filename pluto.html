@@ -5,98 +5,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pluto</title>
     <link rel="stylesheet" href="pluto.css">
+    <link rel="stylesheet" href="dropdown.css">
     <link rel="shortcut icon" href="assets/2D Assets/Icons/pluto-icon.png" type="image/x-icon">
 </head>
 <body>
     <header id="header">
 		<nav class="navbar">
-			<ul>
-				<a href="index.html"><img src="assets/2D Assets/Icons/pluto-icon.png" alt="" class="sun-icon"></a>
-				<!-- <li><img src="Assets/2D Assets/Icons/sun-icon.png" alt="" class="sun-icon"></li> -->
-				<a href="#header">
-					<li>HOME</li>
-				</a>
+            <div class="image">
+                <li id="image-listitem">
+                    <a href="#">
+                        <img id="icon" src="assets/2D Assets/Icons/pluto-icon.png" alt="" class="sun-icon">
+                    </a>
+                </li>
+                <ul class="subitem">
+                    <li class="subitem-item-block">
+                        <a href="#" class="subitem-item">Solar System</a>
+                    </li>
+                    <div class="subitem subitem-item-item">
+                        <li class="subitem-item-block subitem-item-item-content"><a href="index.html" class="subitem-item">Home</a></li>
+                        <li class="subitem-item-block subitem-item-item-content"><a href="about.html" class="subitem-item">About</a></li>
+                        <li class="subitem-item-block subitem-item-item-content"><a href="planets.html" class="subitem-item">Planets</a></li>
+                    </div>
+                    <li class="subitem-item-block">
+                        <a href="#" class="subitem-item">Planets</a>
+                    </li>
+                    <div class="subitem subitem-item-item">
 
-				<a href="#atmosphere">
-					<li>ATMOSPHERE</li>
-				</a>
+                        <li class="subitem-item-block">
+                            <a href="#" class="subitem-item">Mercury</a>
+                        </li>
+                        <div class="subitem subitem-item-item">
+                            <li class="subitem-item-block"><a href="mercury.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="mercury-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="mercury-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="mercury-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+    
+                        <li class="subitem-item-block">
+                            <a href="#" class="subitem-item">Venus</a>
+                        </li>
+                        <div class="subitem subitem-item-item">
+                            <li class="subitem-item-block"><a href="venus.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="venus-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="venus-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="venus-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
 
-				<a href="#geology">
-					<li>GEOLOGY</li>
-				</a>
+                        <li class="subitem-item-block">
+                            <a href="#" class="subitem-item">Earth</a>
+                        </li>
+                        <div class="subitem subitem-item-item">
+                            <li class="subitem-item-block"><a href="earth.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="earth-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="earth-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="earth-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
 
-				<a href="#composition">
-					<li>COMPOSITION</li>
-				</a>
-			</ul>
-		</nav>
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Mars</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-2">
+                            <li class="subitem-item-block"><a href="mars.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="mars-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="mars-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="mars-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+                        
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Jupiter</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-2">
+                            <li class="subitem-item-block"><a href="jupiter.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="jupiter-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="jupiter-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="jupiter-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Saturn</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-2">
+                            <li class="subitem-item-block"><a href="saturn.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="saturn-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="saturn-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="saturn-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+                        
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Uranus</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-3">
+                            <li class="subitem-item-block"><a href="uranus.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="uranus-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="uranus-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="uranus-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Neptune</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-3">
+                            <li class="subitem-item-block"><a href="neptune.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="neptune-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="neptune-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="neptune-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Pluto</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-3">
+                            <li class="subitem-item-block"><a href="pluto.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="pluto-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="pluto-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="pluto-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <a href="pluto.html">
+                <li class="navbar-item">HOME</li>
+            </a>
+            
+            <a href="pluto-atmosphere.html">
+                <li class="navbar-item">ATMOSPHERE</li>
+            </a>
+            
+            <a href="pluto-geology.html">
+                <li class="navbar-item">GEOLOGY</li>
+            </a>
+            
+            <a href="pluto-composition.html">
+                <li class="navbar-item">COMPOSITION</li>
+            </a>
+        </nav>
 
 		<div class="box" id="box"></div>
-
+        <marquee>This website is made by Satvik</marquee>
 		<div class="heading" id="home">
 			<span>PLUTO</span>
 			<a href="#geology-fact"><span>A special planet. planet?</span></a>
 		</div>
 	</header>
-
-    <main>
-        <div class="atmosphere" id="atmosphere">
-            <div class="atmosphere-image">
-                <img src="assets/2D Assets/Ellipse.png" alt="">
-                <img src="assets/2D Assets/planets/pluto.png" alt="">
-            </div>
-            <div class="atmosphere-text">
-                <span>ATMOSPHERE</span>
-                <span>
-                    <span>Pluto's atmosphere</span> is thin, composed mainly of <span>nitrogen</span>, with <span>traces</span> of <span>methane and carbon monoxide</span>. It <span>freezes</span> as Pluto <span>moves away from the Sun</span>, forming a surface ice layer. During its <span>closest approach to the Sun</span>, this ice sublimates, creating a <span>temporary atmosphere</span>. Despite being incredibly thin, it can expand due to <span>seasonal variations</span>, with gases escaping into space. The atmosphere freezes and collapses as Pluto moves farther from the Sun. Its dynamic nature, influenced by Pluto's elliptical orbit, results in a changing and <span>transient atmosphere</span>.</span>
-                <div class="fact-box">
-                    <div class="top">
-                        <img src="assets/2D Assets/Icons/pluto-icon.png" alt="">
-                        <span>FACT FILE</span>
-                    </div>
-                    <span>Pluto's atmosphere undergoes seasonal changes due to its elliptical orbit and axial tilt, similar to Earth. However, the seasons on Pluto are incredibly long, with each season lasting for several decades due to its long orbital period (about 248 Earth years).</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="geology atmosphere" id="geology">
-            <div class="geology-image atmosphere-image">
-                <img src="assets/2D Assets/Ellipse.png" alt="">
-                <img src="assets/2D Assets/planets/pluto.png" alt="">
-            </div>
-            <div class="geology-text atmosphere-text">
-                <span>GEOLOGY</span>
-                <span>
-                    <span>Pluto's geology</span> reveals a diverse terrain with <span>frozen plains, mountains, and vast icy plains</span>. The heart-shaped <span>Tombaugh Regio</span>, dominated by nitrogen ice, contrasts with darker, <span>rugged areas</span> like <span>Cthulhu Macula</span>. Geologically active, evidence suggests <span>cryovolcanism—icy eruptions</span> shaping its surface. Mountains, possibly composed of water ice, rise kilometers high. <span>Subsurface layers</span> may harbor an <span>ocean</span>. <span>Tectonic activity</span> creates <span>fault lines and fractures</span>, while <span>seasonal changes</span> cause volatile <span>ices to shift</span>, influencing Pluto's ever-evolving geological landscape. The interplay of geological processes involving ice, organic compounds, and subsurface interactions shapes <span>Pluto's unique geology</span>.</span>
-                <div class="fact-box" id="geology-fact">
-                    <div class="top">
-                        <img src="assets/2D Assets/Icons/pluto-icon.png" alt="">
-                        <span>FACT FILE</span>
-                    </div>
-                    <span>
-                        The reclassification of Pluto as a dwarf planet in 2006 was a significant event in astronomy, sparking debates and discussions in the scientific community and reshaping our understanding of planetary classification. </span>
-                </div>
-            </div>
-        </div>
-
-        <div class="composition atmosphere" id="composition">
-            <div class="composition-image atmosphere-image">
-                <img src="assets/2D Assets/Ellipse.png" alt="">
-                <img src="assets/2D Assets/planets/pluto.png" alt="">
-            </div>
-            <div class="composition-text atmosphere-text">
-                <span>COMPOSITION</span>
-                <span>
-                    <span>Pluto's composition</span> primarily comprises <span>rock and ice</span>, with a <span>mantle of water ice</span> covering a <span>rocky core</span>. Its <span>surface</span> features a <span>mix of frozen nitrogen, methane, and carbon monoxide</span>. Organic compounds like <span>tholins</span>, formed by solar radiation <span>interact</span>ing <span>with methane and nitrogen</span>, <span>color its surface</span>. Trace amounts of carbon dioxide and other hydrocarbons exist. Recent findings suggest the <span>potential presence</span> of an <span>underground ocean</span> beneath its icy shell. This diverse blend of rock, ice, and complex compounds defines Pluto's <span>intriguing and varied composition.</span></span>
-                <div class="fact-box">
-                    <div class="top">
-                        <img src="assets/2D Assets/Icons/pluto-icon.png" alt="">
-                        <span>FACT FILE</span>
-                    </div>
-                    <span>Pluto has a thin atmosphere composed mainly of nitrogen (N2), similar to Earth's atmosphere but significantly thinner. The presence of nitrogen and other trace gases like methane and carbon monoxide suggests a complex interplay between the surface and the atmosphere due to processes like sublimation and condensation.</span>
-                </div>
-            </div>
-        </div>
-    </main>
 </body>
 </html>

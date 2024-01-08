@@ -30,7 +30,7 @@ html{
 body {
     background-color: var(--bg-color);
     overflow-x: hidden;
-    height:2000px;
+    /* height:2000px; */
 }
 
 a{
@@ -68,23 +68,34 @@ header{
     margin: auto;
 }
 
-.navbar>ul {
+.navbar{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 56px;
 }
 
-.navbar>ul>a>li{
+
+.navbar-item{
+    transition: 0.5s;
     list-style-type: none;
     margin: 3vw;
     letter-spacing: clamp(1px, 1.5vw, 13px);
 }
 
-.navbar ul li:hover{
+.navbar-item:hover{
     color: var(--color-2);
     font-size: clamp(10px, 1.4vw, 35px);
     font-weight: 900;
+}
+
+marquee{
+    font-family: var(--font-1);
+}
+
+
+.subitem-item{
+    color: var(--bg-color);
 }
 
 .heading{
@@ -97,6 +108,7 @@ header{
 }
 
 .heading span{
+    transition: 0.5s;
     color: var(--color-2);
     text-shadow: 7px 4px var(--bg-color);
 }
@@ -228,6 +240,7 @@ header{
 }
 
 .planet-box>a>img{
+    transition: 0.5s;
     margin: auto;
     position: relative;
     height: 16vw;
@@ -243,6 +256,10 @@ header{
 }
 
 .planet-box>a>span:hover{
-    font-weight: 900;
     color: var(--color-2);
+    font-weight: 900;
+}
+
+.planet-box>a>span{
+    transition: 0.5s;
 }

@@ -5,97 +5,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mars</title>
     <link rel="stylesheet" href="mars.css">
+    <link rel="stylesheet" href="dropdown.css">
     <link rel="shortcut icon" href="assets/2D Assets/Icons/mars-icon.png" type="image/x-icon">
 </head>
 <body>
     <header id="header">
 		<nav class="navbar">
-			<ul>
-				<a href="index.html"><img src="assets/2D Assets/Icons/mars-icon.png" alt="" class="sun-icon"></a>
-				<!-- <li><img src="Assets/2D Assets/Icons/sun-icon.png" alt="" class="sun-icon"></li> -->
-				<a href="#header">
-					<li>HOME</li>
-				</a>
+            <div class="image">
+                <li id="image-listitem">
+                    <a href="#">
+                        <img id="icon" src="assets/2D Assets/Icons/mars-icon.png" alt="" class="sun-icon">
+                    </a>
+                </li>
+                <ul class="subitem">
+                    <li class="subitem-item-block">
+                        <a href="#" class="subitem-item">Solar System</a>
+                    </li>
+                    <div class="subitem subitem-item-item">
+                        <li class="subitem-item-block subitem-item-item-content"><a href="index.html" class="subitem-item">Home</a></li>
+                        <li class="subitem-item-block subitem-item-item-content"><a href="about.html" class="subitem-item">About</a></li>
+                        <li class="subitem-item-block subitem-item-item-content"><a href="planets.html" class="subitem-item">Planets</a></li>
+                    </div>
+                    <li class="subitem-item-block">
+                        <a href="#" class="subitem-item">Planets</a>
+                    </li>
+                    <div class="subitem subitem-item-item">
 
-				<a href="#atmosphere">
-					<li>ATMOSPHERE</li>
-				</a>
+                        <li class="subitem-item-block">
+                            <a href="#" class="subitem-item">Mercury</a>
+                        </li>
+                        <div class="subitem subitem-item-item">
+                            <li class="subitem-item-block"><a href="mercury.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="mercury-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="mercury-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="mercury-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+    
+                        <li class="subitem-item-block">
+                            <a href="#" class="subitem-item">Venus</a>
+                        </li>
+                        <div class="subitem subitem-item-item">
+                            <li class="subitem-item-block"><a href="venus.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="venus-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="venus-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="venus-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
 
-				<a href="#geology">
-					<li>GEOLOGY</li>
-				</a>
+                        <li class="subitem-item-block">
+                            <a href="#" class="subitem-item">Earth</a>
+                        </li>
+                        <div class="subitem subitem-item-item">
+                            <li class="subitem-item-block"><a href="earth.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="earth-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="earth-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="earth-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
 
-				<a href="#composition">
-					<li>COMPOSITION</li>
-				</a>
-			</ul>
-		</nav>
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Mars</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-2">
+                            <li class="subitem-item-block"><a href="mars.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="mars-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="mars-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="mars-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+                        
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Jupiter</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-2">
+                            <li class="subitem-item-block"><a href="jupiter.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="jupiter-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="jupiter-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="jupiter-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Saturn</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-2">
+                            <li class="subitem-item-block"><a href="saturn.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="saturn-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="saturn-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="saturn-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+                        
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Uranus</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-3">
+                            <li class="subitem-item-block"><a href="uranus.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="uranus-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="uranus-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="uranus-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Neptune</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-3">
+                            <li class="subitem-item-block"><a href="neptune.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="neptune-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="neptune-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="neptune-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Pluto</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-3">
+                            <li class="subitem-item-block"><a href="pluto.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="pluto-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="pluto-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="pluto-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <a href="mars.html">
+                <li class="navbar-item">HOME</li>
+            </a>
+            
+            <a href="mars-atmosphere.html">
+                <li class="navbar-item">ATMOSPHERE</li>
+            </a>
+            
+            <a href="mars-geology.html">
+                <li class="navbar-item">GEOLOGY</li>
+            </a>
+            
+            <a href="mars-composition.html">
+                <li class="navbar-item">COMPOSITION</li>
+            </a>
+        </nav>
 
 		<div class="box" id="box"></div>
-
+        <marquee>This website is made by Satvik</marquee>
 		<div class="heading" id="home">
 			<span>MARS</span>
 			<span>destination of the world</span>
 		</div>
 	</header>
-
-    <main>
-        <div class="atmosphere" id="atmosphere">
-            <div class="atmosphere-image">
-                <img src="assets/2D Assets/Ellipse.png" alt="">
-                <img src="assets/2D Assets/planets/mars.png" alt="">
-            </div>
-            <div class="atmosphere-text">
-                <span>ATMOSPHERE</span>
-                <span>
-                    Mars has a <span>thin atmosphere</span> composed mostly of <span>carbon dioxide</span> with <span>traces</span> of <span>nitrogen</span> and <span>argon</span>. It's much <span>thinner than Earth</span>'s, creating a harsh environment with <span>extreme temperature variations (-195°C to 20°C)</span> and <span>low atmospheric pressure</span>, equivalent to about <span>1% of Earth</span>'s. Dust storms, prevalent due to fine <span>dust particles</span> suspended in the <span>air</span>, can <span>cover the entire planet</span>, impacting visibility and surface operations. The lack of a strong magnetic field also exposes Mars to harmful <span>solar and cosmic radiation</span>, making it <span>inhospitable</span> for unprotected human habitation.</span>
-                <div class="fact-box">
-                        <div class="top">
-                            <img src="assets/2D Assets/Icons/mars-icon.png" alt="">
-                            <span>FACT FILE</span>
-                        </div>
-                        <span>Mars has a thin atmosphere composed mainly of carbon dioxide (95%) with traces of other gases. Its atmospheric pressure is about 1% that of Earth's, making it inhospitable for human life without protective equipment.</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="geology atmosphere" id="geology">
-            <div class="geology-image atmosphere-image">
-                <img src="assets/2D Assets/Ellipse.png" alt="">
-                <img src="assets/2D Assets/planets/mars.png" alt="">
-            </div>
-            <div class="geology-text atmosphere-text">
-                <span>GEOLOGY</span>
-                <span>
-                    Mars displays diverse <span>geological features</span>. It boasts the <span>tallest volcano, Olympus Mons</span>, and Valles Marineris, a vast canyon system. The planet exhibits <span>evidence</span> of <span>ancient river valleys</span>, indicating past water flow. <span>Sedimentary layers</span> suggest a history of <span>water-related processes</span>. Impact craters, prevalent on its surface, provide insights into its history. The <span>polar ice caps</span> suggest <span>frozen water</span>, while <span>mineral formations</span> hint at past <span>hydrothermal activity</span>. Martian geology, shaped by volcanic activity, water, and impacts, continues to captivate scientists exploring its unique terrain for clues about its geological evolution and <span>potential for past or present life.</span></span>
-                <div class="fact-box">
-                    <div class="top">
-                        <img src="assets/2D Assets/Icons/mars-icon.png" alt="">
-                        <span>FACT FILE</span>
-                    </div>
-                    <span>This vast system of canyons on Mars, named Valles Marineris, stretches over 2,500 miles (4,000 kilometers) long, making it one of the largest canyons in the solar system. It's believed to have formed from tectonic and erosional processes.</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="composition atmosphere" id="composition">
-            <div class="composition-image atmosphere-image">
-                <img src="assets/2D Assets/Ellipse.png" alt="">
-                <img src="assets/2D Assets/planets/mars.png" alt="">
-            </div>
-            <div class="composition-text atmosphere-text">
-                <span>COMPOSITION</span>
-                <span>
-                    Mars comprises primarily <span>iron oxide</span>, giving it a <span>reddish hue</span>, alongside silicate rocks, basaltic rock formations, and <span>regolith (surface layer)</span> <span>rich in iron, aluminum, and magnesium</span>. Its <span>atmosphere</span> consists mainly of <span>carbon dioxide</span> with <span>trace amounts</span> of <span>nitrogen and argon</span>. <span>Water</span> exists as ice in <span>polar caps</span> and <span>subsurface reservoirs</span>. Additionally, evidence suggests the <span>presence of minerals</span> like hematite, clay, sulfate salts, and perchlorates, indicating <span>past aqueous activity</span>, contributing to ongoing exploration for signs of <span>past or present life</span> on the planet.</span>
-                <div class="fact-box">
-                    <div class="top">
-                        <img src="assets/2D Assets/Icons/mars-icon.png" alt="">
-                        <span>FACT FILE</span>
-                    </div>
-                    <span>The presence of certain minerals and the detection of water ice suggest that Mars might have had conditions suitable for life in the past or could potentially support microbial life in subsurface environments.</span>
-                </div>
-            </div>
-        </div>
-    </main>
 </body>
 </html>

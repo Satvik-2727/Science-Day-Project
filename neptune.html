@@ -5,97 +5,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neptune</title>
     <link rel="stylesheet" href="neptune.css">
+    <link rel="stylesheet" href="dropdown.css">
     <link rel="shortcut icon" href="assets/2D Assets/Icons/neptune-icon.png" type="image/x-icon">
 </head>
 <body>
     <header id="header">
 		<nav class="navbar">
-			<ul>
-				<a href="index.html"><img src="assets/2D Assets/Icons/neptune-icon.png" alt="" class="sun-icon"></a>
-				<!-- <li><img src="Assets/2D Assets/Icons/sun-icon.png" alt="" class="sun-icon"></li> -->
-				<a href="#header">
-					<li>HOME</li>
-				</a>
+            <div class="image">
+                <li id="image-listitem">
+                    <a href="#">
+                        <img id="icon" src="assets/2D Assets/Icons/neptune-icon.png" alt="" class="sun-icon">
+                    </a>
+                </li>
+                <ul class="subitem">
+                    <li class="subitem-item-block">
+                        <a href="#" class="subitem-item">Solar System</a>
+                    </li>
+                    <div class="subitem subitem-item-item">
+                        <li class="subitem-item-block subitem-item-item-content"><a href="index.html" class="subitem-item">Home</a></li>
+                        <li class="subitem-item-block subitem-item-item-content"><a href="about.html" class="subitem-item">About</a></li>
+                        <li class="subitem-item-block subitem-item-item-content"><a href="planets.html" class="subitem-item">Planets</a></li>
+                    </div>
+                    <li class="subitem-item-block">
+                        <a href="#" class="subitem-item">Planets</a>
+                    </li>
+                    <div class="subitem subitem-item-item">
 
-				<a href="#atmosphere">
-					<li>ATMOSPHERE</li>
-				</a>
+                        <li class="subitem-item-block">
+                            <a href="#" class="subitem-item">Mercury</a>
+                        </li>
+                        <div class="subitem subitem-item-item">
+                            <li class="subitem-item-block"><a href="mercury.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="mercury-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="mercury-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="mercury-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+    
+                        <li class="subitem-item-block">
+                            <a href="#" class="subitem-item">Venus</a>
+                        </li>
+                        <div class="subitem subitem-item-item">
+                            <li class="subitem-item-block"><a href="venus.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="venus-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="venus-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="venus-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
 
-				<a href="#geology">
-					<li>GEOLOGY</li>
-				</a>
+                        <li class="subitem-item-block">
+                            <a href="#" class="subitem-item">Earth</a>
+                        </li>
+                        <div class="subitem subitem-item-item">
+                            <li class="subitem-item-block"><a href="earth.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="earth-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="earth-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="earth-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
 
-				<a href="#composition">
-					<li>COMPOSITION</li>
-				</a>
-			</ul>
-		</nav>
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Mars</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-2">
+                            <li class="subitem-item-block"><a href="mars.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="mars-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="mars-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="mars-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+                        
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Jupiter</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-2">
+                            <li class="subitem-item-block"><a href="jupiter.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="jupiter-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="jupiter-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="jupiter-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Saturn</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-2">
+                            <li class="subitem-item-block"><a href="saturn.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="saturn-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="saturn-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="saturn-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+                        
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Uranus</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-3">
+                            <li class="subitem-item-block"><a href="uranus.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="uranus-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="uranus-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="uranus-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Neptune</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-3">
+                            <li class="subitem-item-block"><a href="neptune.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="neptune-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="neptune-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="neptune-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+
+                        <li class="subitem-item-block"><a href="#" class="subitem-item">Pluto</a></li>
+                        <div class="subitem subitem-item-item subitem-item-item-3">
+                            <li class="subitem-item-block"><a href="pluto.html" class="subitem-item">Home</a></li>
+                            <li class="subitem-item-block"><a href="pluto-atmosphere.html" class="subitem-item">Atmosphere</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="pluto-geology.html" class="subitem-item">Geology</a></li>
+                            <li class="subitem-item-block subitem-item-item-content"><a href="pluto-composition.html" class="subitem-item">Composition</a></li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <a href="neptune.html">
+                <li class="navbar-item">HOME</li>
+            </a>
+            
+            <a href="neptune-atmosphere.html">
+                <li class="navbar-item">ATMOSPHERE</li>
+            </a>
+            
+            <a href="neptune-geology.html">
+                <li class="navbar-item">GEOLOGY</li>
+            </a>
+            
+            <a href="neptune-composition.html">
+                <li class="navbar-item">COMPOSITION</li>
+            </a>
+        </nav>
 
 		<div class="box" id="box"></div>
-
+        <marquee>This website is made by Satvik</marquee>
 		<div class="heading" id="home">
 			<span>NEPTUNE</span>
 			<span>planet of diamond rain</span>
 		</div>
 	</header>
-
-    <main>
-        <div class="atmosphere" id="atmosphere">
-            <div class="atmosphere-image">
-                <img src="assets/2D Assets/Ellipse.png" alt="">
-                <img src="assets/2D Assets/planets/neptune.png" alt="">
-            </div>
-            <div class="atmosphere-text">
-                <span>ATMOSPHERE</span>
-                <span>
-                    <span>Neptune's atmosphere</span> is composed mainly of <span>hydrogen, helium</span>, and <span>trace amounts</span> of <span>methane</span>, lending it a vibrant blue hue. <span>High-speed winds</span>, reaching up to <span>1,500 mph</span>, create <span>massive storms</span> like the <span>Great Dark Spot</span>. The upper atmosphere exhibits dynamic cloud patterns, with white clouds of methane ice and darker storm systems. <span>Extreme temperatures</span>, averaging around <span>-330°F (-201°C)</span>, coupled with its turbulent weather, create an atmospheric environment characterized by a mysterious and dynamic outer appearance.</span>
-                <div class="fact-box">
-                    <div class="top">
-                        <img src="assets/2D Assets/Icons/neptune-icon.png" alt="">
-                        <span>FACT FILE</span>
-                    </div>
-                    <span>Similar to Jupiter's Great Red Spot, Neptune once had a massive storm known as the Great Dark Spot. However, this storm observed by Voyager 2 in 1989 seemed to have vanished in subsequent observations by the Hubble Space Telescope, showcasing the dynamic nature of Neptune's atmosphere.</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="geology atmosphere" id="geology">
-            <div class="geology-image atmosphere-image">
-                <img src="assets/2D Assets/Ellipse.png" alt="">
-                <img src="assets/2D Assets/planets/neptune.png" alt="">
-            </div>
-            <div class="geology-text atmosphere-text">
-                <span>GEOLOGY</span>
-                <span>
-                    <span>Neptune</span> is a gas giant <span>without</span> a <span>solid surface</span>. Its interior comprises a dense <span>core</span> of <span>rock, metal, and ice</span> surrounded by <span>layers of hydrogen, helium</span>, and other gases. Deep within, extreme pressure and temperatures likely create exotic states of matter. Despite lacking a defined surface, Neptune's atmosphere transitions gradually into its interior, with the atmosphere blending into layers of gas and ice. <span>Magnetic field fluctuations</span> hint at complex internal processes, but due to its distance and the challenges of observation, <span>detailed understanding of Neptune's geology remains elusive.</span></span>
-                <div class="fact-box">
-                    <div class="top">
-                        <img src="assets/2D Assets/Icons/neptune-icon.png" alt="">
-                        <span>FACT FILE</span>
-                    </div>
-                    <span>Beneath its thick atmosphere, Neptune likely has a small, rocky core surrounded by layers of ice, water, methane, and ammonia. The pressure and temperature within Neptune increase towards its core, creating different states of matter.</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="composition atmosphere" id="composition">
-            <div class="composition-image atmosphere-image">
-                <img src="assets/2D Assets/Ellipse.png" alt="">
-                <img src="assets/2D Assets/planets/neptune.png" alt="">
-            </div>
-            <div class="composition-text atmosphere-text">
-                <span>COMPOSITION</span>
-                <span>
-                    <span>Neptune's composition</span> predominantly consists of <span>hydrogen (around 80%)</span> and <span>helium (around 19%)</span>. The remaining composition includes <span>trace amounts</span> of <span>methane, water, ammonia</span>, and other ices, along with <span>rocky materials</span> comprising a <span>dense core</span> at its center. Its <span>blue appearance</span> is due to <span>methane absorbing red light</span>, reflecting blue hues. This icy giant's atmosphere also contains <span>clouds</span> made of <span>methane, ammonia, and water vapor</span>, contributing to its dynamic weather patterns and vibrant appearance.</span>
-                <div class="fact-box">
-                    <div class="top">
-                        <img src="assets/2D Assets/Icons/neptune-icon.png" alt="">
-                        <span>FACT FILE</span>
-                    </div>
-                    <span>It's theorized that Neptune has a small, rocky core surrounded by layers of icy materials, including water, methane, and ammonia. Its atmosphere consists of hydrogen, helium, and traces of methane.</span>
-                </div>
-            </div>
-        </div>
-    </main>
 </body>
 </html>
