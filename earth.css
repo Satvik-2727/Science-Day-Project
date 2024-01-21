@@ -7,6 +7,7 @@
 :root {
     --color-1: white;
     --color-2: #00F99F;
+    --color-3:white;
     --bg-color: black;
     --bg-color-2:#1C1818;
     --font-1: 'JetBrains Mono', monospace, sans-serif;
@@ -167,8 +168,12 @@ header{
     /* margin: auto; */
 }
 
+.atmosphere-text>span:nth-child(2)>span{
+    color: var(--color-1);
+}
 
 .atmosphere-text>span:nth-child(2){
+    color: var(--color-1);
     padding-top: 30px;
     font-family: var(--font-1);
     font-size: clamp(10px,1.3vw,100px);
@@ -196,12 +201,13 @@ header{
     background-color: var(--color-2);
 }
 
-.fact-box:hover{
+.fact-box:hover , .fact-box>span:hover{
     background-color: var(--bg-color-2);
 }
 
 .fact-box span{
     font-family: var(--font-1);
+    color: var(--color-1);  
 }
 
 .top{
@@ -224,7 +230,7 @@ header{
 
 .fact-box>span:nth-child(2){
     font-size: clamp(10px,1.2vw,40px);
-
+    
 }
 /* G    E   O   L   O   G   Y */
 

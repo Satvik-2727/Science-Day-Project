@@ -193,8 +193,8 @@ marquee{
 .about-imagebox{
     display: flex;
     background-color: var(--color-2);
-    height: clamp(200px,30vw,1000px);
-    width: clamp(130px,25vw,100vw);
+    height: clamp(200px,38vw,1000px);
+    width: clamp(130px,22vw,100vw);
     margin: auto;
 }
 
