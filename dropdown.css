@@ -12,7 +12,7 @@
     list-style: none;
     border-radius: 10px;
     background-color: var(--color-2);
-    padding: 12px;
+    padding: 1vw;
     font-size: clamp(9px,1vw,50px);
     transition: 0.5s;
     height: fit-content;
@@ -24,13 +24,12 @@
 }
 
 .image{
-    transition: 5s;
     padding-top: 8px;
 }
 
 .image:hover  .subitem ,.subitem:hover{
-   /* display: block; */
-   opacity: 100;
+    /* display: block; */
+    opacity: 100;
 }
 
 .subitem-item{
