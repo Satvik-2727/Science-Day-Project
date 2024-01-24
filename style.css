@@ -59,7 +59,7 @@ header{
 }
 .navbar {
     position: fixed;
-    z-index: 2;
+    z-index: 15;
     top: 2vw;
     /* background-color: orange; */
     font-family: var(--font-1);
@@ -151,6 +151,7 @@ marquee{
 
 .about-box{
     display: flex;
+    z-index: 10;
     color: var(--color-1);
     position: relative;
     padding-top: 100px;
@@ -168,6 +169,7 @@ marquee{
 }
 
 .about-contentbox span{
+    transition: 0.8s;
     color: var(--color-1);
     font-family: var(--font-1);
     margin-top: 20px;
@@ -183,13 +185,11 @@ marquee{
 }
 
 .about-contentbox>span:nth-child(1):hover{
-    transition: 0.8s;
     margin: 0 auto;
     color: var(--color-2);
 }
 
 .about-contentbox>span:nth-child(2):hover{
-    transition: 0.8s;
     margin: 0 auto;
     color: var(--color-2);
 }
@@ -210,6 +210,7 @@ marquee{
     width: clamp(130px,22vw,100vw);
     margin: auto;
 }
+
 
 .about-imagebox img{
     position: relative;
