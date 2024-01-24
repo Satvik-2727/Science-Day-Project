@@ -151,6 +151,7 @@ marquee{
 
 .about-box{
     display: flex;
+    color: var(--color-1);
     position: relative;
     padding-top: 100px;
 }
@@ -158,35 +159,47 @@ marquee{
 .about-contentbox{
     display: flex;
     margin-left: auto;
-    background-color: var(--color-2);
+    /* background-color: var(--color-2); */
     flex-direction: column;
     width: 57vw;
     font-size: clamp(15px,1.7vw,420px);
     border-radius: 36px;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .about-contentbox span{
-    color: var(--bg-color);
+    color: var(--color-1);
     font-family: var(--font-1);
     margin-top: 20px;
     margin-bottom: 3px;
 }
 
 .about-contentbox>span:nth-child(1){
-    letter-spacing: 3vw;
+    /* letter-spacing: 3vw; */
     font-size: clamp(20px,3vw,200px);
     font-weight: 900;
     margin-top: 10px;
     margin-bottom: 3vw;
 }
 
+.about-contentbox>span:nth-child(1):hover{
+    transition: 0.8s;
+    margin: 0 auto;
+    color: var(--color-2);
+}
+
+.about-contentbox>span:nth-child(2):hover{
+    transition: 0.8s;
+    margin: 0 auto;
+    color: var(--color-2);
+}
+
 .about-contentbox>span:nth-child(2){
     position: relative;
     line-height: clamp(17px,3.5vw,100px);
     font-size: clamp(13px,1.9vw,100px);
-    font-weight: 600;
-    margin: 10px;
+    font-weight: 300;
+    /* margin: 1px; */
     top: clamp(0,1%,500px);
 }
 
