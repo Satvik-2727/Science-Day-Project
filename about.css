@@ -1,3 +1,41 @@
+:root {
+    --color-mercury:white;
+    --color-neptune:white;
+}
+
 header{
-    background-image: none;
+    display: flex;
+    align-items: center;
+}
+
+.about-contentbox{
+    position: relative;
+    bottom: 10vw;
+    width: 99vw;
+    align-items: center;
+}
+
+.about-contentbox span{
+    transition: 0.8s;    
+}
+
+.about-contentbox>span:nth-child(2):hover{
+    --color-mercury:#7F776E;
+    --color-neptune:#4B7CFD;
+}
+
+.about-contentbox>span:nth-child(2){
+    width: 90vw;
+}
+
+.about-contentbox>span:nth-child(2) span{
+    transition: 1s;
+}
+
+.about-contentbox>span:nth-child(2)>span:nth-child(1){
+    color: var(--color-mercury);
+}
+
+.about-contentbox>span:nth-child(2)>span:nth-child(2){
+    color: var(--color-neptune);
 }
