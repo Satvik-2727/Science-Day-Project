@@ -146,17 +146,17 @@ header{
     display: flex;
 }
 
-#uranus-text{
+.atmosphere-text{
     display: flex;
     flex-direction: column;
     width: 55vw;
 }
 
-#uranus-text>span:nth-child(2):hover{
+.atmosphere-text>span:nth-child(2):hover{
     color: var(--color-2);
 }
 
-#uranus-text>span:nth-child(1){
+.atmosphere-text>span:nth-child(1){
     font-family: var(--font-1);
     color: var(--color-2);
     font-size: clamp(15px,3vw,100px);
@@ -166,7 +166,7 @@ header{
 }
 
 
-#uranus-text>span:nth-child(2){
+.atmosphere-text>span:nth-child(2){
     transition: 0.5s;
     padding-top: 30px;
     font-family: var(--font-1);
