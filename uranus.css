@@ -146,17 +146,17 @@ header{
     display: flex;
 }
 
-.atmosphere-text{
+#uranus-text{
     display: flex;
     flex-direction: column;
     width: 55vw;
 }
 
-.atmosphere-text>span:nth-child(2):hover{
+#uranus-text>span:nth-child(2):hover{
     color: var(--color-2);
 }
 
-.atmosphere-text>span:nth-child(1){
+#uranus-text>span:nth-child(1){
     font-family: var(--font-1);
     color: var(--color-2);
     font-size: clamp(15px,3vw,100px);
@@ -166,7 +166,7 @@ header{
 }
 
 
-.atmosphere-text>span:nth-child(2){
+#uranus-text>span:nth-child(2){
     transition: 0.5s;
     padding-top: 30px;
     font-family: var(--font-1);
@@ -186,7 +186,7 @@ header{
     height: 50vw;
 }
 
-.fact-box{
+#uranus-fact-box{
     transition: 0.5s;
     margin-top: 120px;
     padding: 14px;
@@ -195,11 +195,11 @@ header{
     background-color: var(--color-2);
 }
 
-.fact-box:hover{
+#uranus-fact-box:hover{
     background-color: var(--bg-color-2);
 }
 
-.fact-box span{
+#uranus-fact-box span{
     font-family: var(--font-1);
 }
 
@@ -221,7 +221,7 @@ header{
     margin: auto;
 }
 
-.fact-box>span:nth-child(2){
+#uranus-fact-box>span:nth-child(2){
     font-size: clamp(10px,1.2vw,40px);
 
 }

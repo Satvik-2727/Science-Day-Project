@@ -18,7 +18,6 @@
 * {
     margin: 0;
     padding: 0;
-    color: var(--bg-color);
 }
 
 html{
@@ -29,6 +28,10 @@ body {
     background-color: var(--bg-color);
     overflow-x: hidden;
 }
+
+/* #earth-fact-box span{
+    color: var(--bg-color) !important;
+} */
 
 a{
     text-decoration: none;
@@ -148,18 +151,18 @@ header{
     display: flex;
 }
 
-.atmosphere-text{
+#earth-text{
     display: flex;
     flex-direction: column;
     width: 55vw;
 }
 
-.atmosphere-text>span:nth-child(2):hover{
+#earth-text>span:nth-child(2):hover{
     transition: 0.5s;
     color: var(--color-2);
 }
 
-.atmosphere-text>span:nth-child(1){
+#earth-text>span:nth-child(1){
     font-family: var(--font-1);
     color: var(--color-2);
     font-size: clamp(15px,3vw,100px);
@@ -168,11 +171,11 @@ header{
     /* margin: auto; */
 }
 
-.atmosphere-text>span:nth-child(2)>span{
+#earth-text>span:nth-child(2)>span{
     color: var(--color-1);
 }
 
-.atmosphere-text>span:nth-child(2){
+#earth-text>span:nth-child(2){
     color: var(--color-1);
     padding-top: 30px;
     font-family: var(--font-1);
@@ -192,7 +195,7 @@ header{
     height: 50vw;
 }
 
-.fact-box{
+#earth-fact-box{
     transition: 0.5s;
     margin-top: 120px;
     padding: 14px;
@@ -201,11 +204,11 @@ header{
     background-color: var(--color-2);
 }
 
-.fact-box:hover , .fact-box>span:hover{
+#earth-fact-box:hover{
     background-color: var(--bg-color-2);
 }
 
-.fact-box span{
+#earth-fact-box span{
     font-family: var(--font-1);
     color: var(--color-1);  
 }
@@ -228,7 +231,7 @@ header{
     margin: auto;
 }
 
-.fact-box>span:nth-child(2){
+#earth-fact-box>span:nth-child(2){
     font-size: clamp(10px,1.2vw,40px);
     
 }
