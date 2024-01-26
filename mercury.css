@@ -146,7 +146,7 @@ header{
 /* A    T   M   O   S   P   H   E   R   E */
 
 
-.atmosphere{
+#mercury{
     padding-top: 37px;
     margin-top: 100px;
     display: flex;
@@ -192,7 +192,7 @@ header{
     height: 50vw;
 }
 
-.fact-box{
+#mercury-fact-box{
     transition: 0.4s;
     margin-top: 120px;
     padding: 14px;
@@ -201,11 +201,11 @@ header{
     background-color: var(--color-2);
 }
 
-.fact-box:hover{
+#mercury-fact-box:hover{
     background-color: var(--bg-color-2);
 }
 
-.fact-box span{
+#mercury-fact-box span{
     font-family: var(--font-1);
 }
 
@@ -227,7 +227,7 @@ header{
     margin: auto;
 }
 
-.fact-box>span:nth-child(2){
+#mercury-fact-box>span:nth-child(2){
     font-size: clamp(10px,1.2vw,40px);
 
 }
