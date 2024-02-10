@@ -60,7 +60,7 @@
 }
 
 
-.subitem-item-block:hover + .subitem-item-item, .subitem-item-item:hover{
+.subitem-item-block:hover + .subitem-item-item,.subitem-item-item:hover{
     display: block;
 }
 

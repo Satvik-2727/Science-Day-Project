@@ -166,7 +166,7 @@ header{
     font-family: var(--font-1);
     color: var(--color-2);
     font-size: clamp(15px,3vw,100px);
-    letter-spacing: clamp(3px,4vw,80px);
+    letter-spacing: clamp(3px,3vw,80px);
     font-weight: 900;
     /* margin: auto; */
 }
